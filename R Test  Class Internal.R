@@ -55,3 +55,6 @@ print(total_amount)
 # 7. Count Number of Yes Purchases
 yes_count <- sum(data$purchase == "yes")
 print(yes_count)
+
+median_amount <- median(data$amount)
+print(median_amount)
